@@ -1,0 +1,33 @@
+{
+  "name": "worker-boss",
+  "version": "0.1.0",
+  "description": "a lib for nodejs to create multy process,and have a good feeling",
+  "main": "lib/index.js",
+  "directories": {
+    "example": "example",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BanKnight/worker-boss.git"
+  },
+  "keywords": [
+    "nodejs",
+    "process",
+    "ipc"
+  ],
+  "author": "bansky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BanKnight/worker-boss/issues"
+  },
+  "homepage": "https://github.com/BanKnight/worker-boss#readme",
+  "dependencies": {
+    "awesome-async": "^0.1.2",
+    "buffer-op": "^0.1.3"
+  },
+  "devDependencies": {}
+}
