@@ -2,8 +2,8 @@
 a lib for nodejs to create multy process and still have a good feeling
 
 # why we use this
-+ convinient way to create multy process
-# less cost to send message to another process
++ convenien way to create multy process
++ less cost to send message to another process
 
 # boss.init(cluster_id)
 the first process must use this method to tell what the cluster id is
@@ -51,4 +51,7 @@ boss.on_call(function (func_name, ...args)
     return args
 })
 ```
+
+# full example
+[github](https://github.com/BanKnight/worker-boss/blob/master/example/test_service_father.js)
 
