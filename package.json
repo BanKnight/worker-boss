@@ -1,6 +1,6 @@
 {
   "name": "worker-boss",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "a lib for nodejs to create multy process,and have a good feeling",
   "main": "lib/index.js",
   "directories": {
@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/BanKnight/worker-boss#readme",
   "dependencies": {
-    "awesome-async": "^0.1.2",
+    "awesome-async": "^0.1.3",
     "buffer-op": "^0.1.3"
   },
   "devDependencies": {}

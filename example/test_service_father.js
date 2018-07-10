@@ -17,7 +17,7 @@ async function start()
 
     for (let i = 0, len = 1; i < len; ++i)
     {
-        let id = await boss.new_worker("./example/test_service_child.js")
+        let id = await boss.new_worker("./example/test_service_child.js", 1, 2, 3)
 
         console.log(`-----new worker back:${id}`)
     }

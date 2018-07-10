@@ -1,20 +1,18 @@
 const boss = require("../lib")
 
-async function start()
+boss.on_invoke(function (func_name, ...args)
 {
-    await boss.init()
+    console.log(`get invoke:${func_name}(${args})`)
+})
 
-    boss.on_invoke(function (func_name, ...args)
-    {
-        console.log(`get invoke:${func_name}(${args})`)
-    })
+boss.on_call(function (func_name, ...args)
+{
+    console.log(`get call:${func_name}(${args})`)
+    return args
+})
 
-    boss.on_call(function (func_name, ...args)
-    {
-        console.log(`get call:${func_name}(${args})`)
-        return args
-    })
-
+async function wrap()
+{
     for (let i = 0, len = 1; i < len; ++i)
     {
         let id = await boss.new_worker("./example/test_service_step.js")
@@ -27,7 +25,10 @@ async function start()
     }
 }
 
-start()
+wrap()
+
+console.log("this is child speaking")
+
 
 
 
