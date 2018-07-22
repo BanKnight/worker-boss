@@ -1,6 +1,11 @@
 # worker-boss
 a lib for nodejs to create multy process and still have a good feeling
 
+# how to install
+```js
+npm install worker-boss
+```
+
 # why we use this
 + convenien way to create multy process
 + less cost to send message to another process

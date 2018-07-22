@@ -1,6 +1,6 @@
 {
   "name": "worker-boss",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "a lib for nodejs to create multy process,and have a good feeling",
   "main": "lib/index.js",
   "directories": {
