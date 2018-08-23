@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "启动程序",
-            "program": "${workspaceFolder}\\example\\test_worker_send.js"
+            "program": "${workspaceFolder}\\example\\test_worker_dispatch.js"
         }
     ]
 }
