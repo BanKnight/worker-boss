@@ -8,7 +8,10 @@
             "type": "node",
             "request": "launch",
             "name": "启动程序",
-            "program": "${workspaceFolder}\\example\\test_api.js"
+            "program": "${workspaceFolder}\\example\\test_new_recursly.js",
+            "args": [
+                "father"
+            ]
         }
     ]
 }
