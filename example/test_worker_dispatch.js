@@ -14,6 +14,8 @@ let as_father = async function ()
     let ret = await boss.call_worker(id, "test", 10)
 
     console.debug(`has already send msgs:${ret}`)
+
+    boss.die()
 }
 
 let as_child = function ()

@@ -8,9 +8,9 @@
             "type": "node",
             "request": "launch",
             "name": "启动程序",
-            "program": "${workspaceFolder}\\example\\test_new_recursly.js",
+            "program": "${workspaceFolder}\\example\\test_cluster.js",
             "args": [
-                "father"
+                "server"
             ]
         }
     ]

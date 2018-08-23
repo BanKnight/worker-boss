@@ -1,3 +1,7 @@
+/**
+ * node .\example\test_api.js
+ */
+
 let boss = require("../lib")
 let argv = process.argv
 
@@ -32,7 +36,6 @@ let as_child = function ()
             case "echo":
                 console.log("return echo")
                 return arg
-                break
         }
     })
 }

@@ -8,7 +8,7 @@ let as_father = async function ()
     let len = 30
     for (let i = 0; i < len; ++i)
     {
-        await boss.new_worker("./example/test_new", i)
+        await boss.new_worker(__filename, i)
     }
 
     console.debug(`finish creating ${len} child`)

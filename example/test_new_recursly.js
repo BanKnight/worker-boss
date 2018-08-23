@@ -25,10 +25,12 @@ let as_son = async function ()
 
 let as_child = function ()
 {
+    console.log("speaking")
+
     setTimeout(() =>
     {
         boss.die()
-    }, 3000)
+    }, 1000)
 }
 
 boss.on_dispatch(function (func_name, ...args)
